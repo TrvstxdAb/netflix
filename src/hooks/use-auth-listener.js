@@ -17,7 +17,7 @@ export default function useAuthListener() {
     });
 
     return () => listener();
-  }, [FirebaseContext]);
+  }, [Firebase]);
 
   return { user };
 }
